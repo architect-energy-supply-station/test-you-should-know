@@ -1,5 +1,6 @@
 package com.dmsdbj.testDemo;
 
+import java.com.dmsdbj.Count;
 import org.junit.*;
 
 import static org.junit.Assert.assertEquals;
@@ -11,7 +12,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class TestFixture {
 
-	//在当前测试类开始时运行。---????
+	//在当前测试类开始时运行。
 
 	@BeforeClass
 	public static void beforeClass(){

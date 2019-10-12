@@ -1,6 +1,7 @@
 package com.dmsdbj.testDemo;
 
 
+import java.com.dmsdbj.Count;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -17,7 +18,7 @@ public class CountTest {
 	public void testAdd(){
 		Count count = new Count();
 		int result = count.add(2, 2);
-		assertEquals(result,4);
+		assertEquals(4,result);
 	}
 
 
@@ -36,7 +37,7 @@ public class CountTest {
 	@Ignore
 	public void testAdd1(){
 		int result = new Count().add(2, 2);
-		assertEquals(result,5);
+		assertEquals(5,result);
 	}
 
 

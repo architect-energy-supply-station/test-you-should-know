@@ -10,10 +10,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @Auther sunshinezhang
  * @Date 2019/10/12 11:09
  */
-public class FirstJUnit5Tests {
+class FirstJUnit5Tests {
 
 	@Test
-	public void myFirstTest() {
+	 void myFirstTest() {
 		assertEquals(2, 1 + 1);
 	}
 }
