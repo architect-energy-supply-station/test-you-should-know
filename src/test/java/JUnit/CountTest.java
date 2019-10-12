@@ -2,8 +2,9 @@ package JUnit;
 
 import org.junit.Ignore;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 /**
  * ${DESCRIPTION}
@@ -31,5 +32,25 @@ public class CountTest {
     public void testAdd2() {
         int add = new Count().add(2, 2);
         assertEquals(add,5);
+    }
+
+
+    String a="1234";
+    String b = "2345";
+    String c = a;
+    String d = "1234";
+
+    @Test
+    public void testAssertEquals() {
+//      assertEquals(a,b);
+        assertEquals(a, d);
+//      assertEquals(a, c);
+//        assertNotEquals(a,b);
+//        assertNull(a);
+//        assertNotNull(a);
+//        assertSame(a, c);
+//        assertSame(a,b);
+       fail();
+
     }
 }
