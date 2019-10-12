@@ -1,10 +1,7 @@
 package DemoJUnit4;
 
 import Demo.Count;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 import static org.junit.Assert.assertEquals;
 
@@ -15,6 +12,10 @@ public class TestFixture {
         System.out.println("-------------------afterClass");
     }
 
+    @BeforeClass
+    public static void beforeClass() {
+        System.out.println("-----------beforeclass");
+    }
     //每个测试方法运行之前运行
     @Before
     public void before(){

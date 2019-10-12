@@ -8,13 +8,13 @@ class JUnit5NewTest {
     @BeforeEach
     @DisplayName("每条用例开始时zhixing")
     void start() {
-
+        System.out.println("每条用例开始时zhixing");
     }
 
     @AfterEach
     @DisplayName("每条用例结束时zhixing")
     void end() {
-
+        System.out.println("每条用例结束时zhixing");
     }
 
     @Test
@@ -36,7 +36,8 @@ class JUnit5NewTest {
 
     @Test
     @DisplayName("运行一组断言")
-    public void assertAllCase() {
+     void assertAllCase() {
+        System.out.println("运行断言");
         assertAll("groupAssert",
                 () -> assertEquals(2, 1 + 1),
                 () -> assertTrue(1 > 0));
@@ -45,13 +46,14 @@ class JUnit5NewTest {
 
     @Test
     @DisplayName("依赖注入1")
-    public void testInfo(final TestInfo testInfo) {
+     void testInfo(final TestInfo testInfo) {
         System.out.println(testInfo.getDisplayName());
     }
 
     @Test
     @DisplayName("依赖注入2")
-    public void testReporter(final TestReporter testReporter) {
+     void testReporter(final TestReporter testReporter) {
+        System.out.println(testReporter.getClass());
         testReporter.publishEntry("name","Alex");
     }
 }
