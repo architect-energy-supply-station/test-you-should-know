@@ -1,4 +1,4 @@
-package java.com.dmsdbj;
+package com.dmsdbj.testModel;
 
 /**
  * @Classname Count

@@ -1,7 +1,7 @@
 package com.dmsdbj.testDemo;
 
 
-import java.com.dmsdbj.Count;
+import com.dmsdbj.testModel.Count;
 import org.junit.Ignore;
 import org.junit.Test;
 

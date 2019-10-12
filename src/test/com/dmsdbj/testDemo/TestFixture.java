@@ -1,6 +1,6 @@
 package com.dmsdbj.testDemo;
 
-import java.com.dmsdbj.Count;
+import com.dmsdbj.testModel.Count;
 import org.junit.*;
 
 import static org.junit.Assert.assertEquals;
