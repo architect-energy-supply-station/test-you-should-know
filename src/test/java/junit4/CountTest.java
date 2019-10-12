@@ -1,3 +1,5 @@
+package junit4;
+
 import junitTest.Count;
 import org.junit.Ignore;
 import org.junit.Test;

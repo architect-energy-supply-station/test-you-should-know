@@ -1,3 +1,5 @@
+package junit5;
+
 import org.junit.jupiter.api.Test;
 
 import static net.sf.ezmorph.test.ArrayAssertions.assertEquals;

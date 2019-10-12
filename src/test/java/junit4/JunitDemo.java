@@ -1,3 +1,5 @@
+package junit4;
+
 import org.junit.Test;
 
 import static net.sf.ezmorph.test.ArrayAssertions.assertEquals;
@@ -11,7 +13,7 @@ public class JunitDemo {
     @Test
     public void myFirstTest() {
 //        assertEquals() 方法用于断言两个值是否相关。
-        assertEquals(2+2,4);
+        assertEquals(2 + 2, 4);
     }
 
 }

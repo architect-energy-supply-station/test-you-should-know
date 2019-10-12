@@ -1,3 +1,5 @@
+package junit5;
+
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.Timeout;
@@ -9,12 +11,13 @@ import org.junit.rules.Timeout;
  */
 public class RuleTestDemo {
     @Rule
-    public Timeout timeout=new Timeout(1000);
+    public Timeout timeout = new Timeout(1000);
 
     @Test
     public void testMethod1() throws InterruptedException {
         Thread.sleep(1001);
     }
+
     @Test
     public void testMethod2() throws InterruptedException {
         Thread.sleep(999);
