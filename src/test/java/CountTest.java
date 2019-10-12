@@ -38,6 +38,6 @@ public class CountTest {
     public void testAdd2() {
         Count count = new Count();
         int result = count.add(2, 2);
-        assertEquals(result,5);
+        assertEquals(result, 5);
     }
 }

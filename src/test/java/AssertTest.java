@@ -21,7 +21,7 @@ public class AssertTest {
     }
 
     @Test
-    public void testPrime(){
+    public void testPrime() {
         int n = 7;
         assertTrue(AssertTest.Prime(n));
     }
