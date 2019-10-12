@@ -56,8 +56,9 @@ public class JUnit5NewTests {
     }
 
     @Test
-    @DisplayName("依赖注入1")
-    public void testReporter(final TestInfo testInfo) {
-        System.out.println(testInfo.getDisplayName());
+    @DisplayName("依赖注入2")
+    public void testReporter(final TestReporter testReporter) {
+        testReporter.publishEntry("name", "Alex");
     }
 }
+

@@ -14,7 +14,7 @@ public class AssertTest {
      * 判断一个数是否为素数
      */
     public static Boolean Prime(int n) {
-        for (int i = 0; i < Math.sqrt(n); i++) {
+        for (int i = 2; i < Math.sqrt(n); i++) {
             if (n % i == 0) {
                 return false;
             }
