@@ -14,6 +14,6 @@ public class JunitDemo {
 
 	@Test
 	public void myFirstTest(){
-		assertEquals(2+2, 4);
+		assertEquals(4, 2+2);
 	}
 }

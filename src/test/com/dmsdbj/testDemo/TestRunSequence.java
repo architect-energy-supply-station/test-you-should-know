@@ -17,12 +17,12 @@ public class TestRunSequence {
 
 	@Test
 	public void TestCase1(){
-		assertEquals(2+2,4);
+		assertEquals(4,2+2);
 	}
 
 	@Test
 	public void TestCase2(){
-		assertEquals(2 + 2, 4);
+		assertEquals(4, 2+2);
 	}
 
 	@Test
