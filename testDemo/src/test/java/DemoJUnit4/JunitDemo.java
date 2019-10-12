@@ -1,4 +1,4 @@
-package Demo;
+package DemoJUnit4;
 
 import org.junit.Test;
 

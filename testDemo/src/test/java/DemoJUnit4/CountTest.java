@@ -1,5 +1,7 @@
-package Demo;
+package DemoJUnit4;
 
+
+import Demo.Count;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

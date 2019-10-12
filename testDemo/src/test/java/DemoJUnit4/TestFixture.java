@@ -1,5 +1,6 @@
-package Demo;
+package DemoJUnit4;
 
+import Demo.Count;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
