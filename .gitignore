@@ -21,6 +21,7 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 ### Maven template
 target/
 pom.xml.tag
@@ -455,3 +456,7 @@ hs_err_pid*
 .idea/rips/
 .idea/vcs.xml
 test-for-java-practice.iml
+=======
+.iml
+.idea
+>>>>>>> 8f101604aaf064af3510a810692ac7f0358eab2c
